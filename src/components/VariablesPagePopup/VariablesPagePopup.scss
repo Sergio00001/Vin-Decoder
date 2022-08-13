@@ -1,0 +1,52 @@
+.popup__wrapper {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.50);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.popup {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: white;
+    max-width: 450px;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+
+    &.active {
+        opacity: 1;
+    }
+}
+
+.popup__message {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.popup__btn {
+    border: 1px solid teal;
+    border-radius: 3px;
+    width: 20%;
+    padding: 10px 0px 10px 0px;
+    margin: 0 auto;
+    color: teal;
+}
