@@ -45,7 +45,10 @@ export const MainPage = () => {
     }
 
     useEffect(() => {
-        setLastVins(JSON.parse(Cookies.get('lastVins')))
+        if (Cookies.get('lastVins')) {
+            setLastVins(JSON.parse(Cookies.get('lastVins')))
+        }
+
     }, [])
 
     useEffect(() => {
