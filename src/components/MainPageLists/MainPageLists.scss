@@ -31,9 +31,26 @@
     margin: 15px;
 }
 
+.main__vins__list__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 .main__list__vin {
     text-decoration: underline;
     color: black;
     margin: 5px 0px;
     font-size: 21px;
+}
+
+@media(max-width:767px) {
+    .main__vins__list {
+        margin: 5% auto;
+        width: 100%;
+    }
+
+    .main__results__list {
+        margin: 0 auto;
+        padding: 10px;
+    }
 }

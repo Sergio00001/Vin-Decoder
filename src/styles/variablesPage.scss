@@ -59,3 +59,22 @@
     margin: 0 auto;
     width: 50%;
 }
+
+@media(max-width:700px) {
+    .go_back_btn {
+        left: 1%;
+        width: 10%;
+    }
+
+    .variables__list {
+        padding: 10px 0px;
+    }
+
+    .variables__list__item {
+        font-size: 16px;
+    }
+
+    .variable__btn {
+        font-size: 16px;
+    }
+}

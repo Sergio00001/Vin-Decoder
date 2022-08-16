@@ -9,7 +9,7 @@ export const MainPageForm = ({ vinNum, setVinNum, searchAndAddVin, error }) => {
                 name='vinInput'
                 type="text"
                 className='main__input'
-                placeholder={error ? 'Please enter the correct VIN number' : 'VIN...'}
+                placeholder={error ? 'Please enter the correct VIN number' : 'VIN number...'}
                 value={vinNum}
                 onChange={e => setVinNum(e.target.value.toUpperCase())}
             />

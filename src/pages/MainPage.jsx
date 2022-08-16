@@ -2,12 +2,11 @@ import React, { useEffect, useState } from 'react'
 import { MainPageResultList } from '../components/MainPageLists/MainPageResultList'
 import { MainPageVinsList } from '../components/MainPageLists/MainPageVinsList'
 import { useNavigate } from 'react-router-dom'
+import { MainPageForm } from '../components/MainPageForm/MainPageForm'
 import Cookies from 'js-cookie'
 import axios from 'axios'
 
 import '../styles/mainPage.scss'
-import { MainPageForm } from '../components/MainPageForm/MainPageForm'
-
 
 export const MainPage = () => {
     const [results, setResults] = useState([])

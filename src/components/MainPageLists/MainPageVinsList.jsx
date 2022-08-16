@@ -8,6 +8,7 @@ export const MainPageVinsList = ({ lastVins, fetchResults }) => {
             <h3 className='main__list__title'>Last Vin Numbers</h3>
             {lastVins.map(vin =>
                 <li
+                    className='main__vins__list__item'
                     key={vin.id}
                 ><button
                     className='main__list__vin'
