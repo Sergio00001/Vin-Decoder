@@ -1,18 +1,26 @@
 .variables {
     position: relative;
-    background-color: teal;
     padding-top: 5vh;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
+.variables__background {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
 .variables__list {
     padding: 20px;
     border-radius: 10px;
-    background-color: white;
     max-width: 80%;
     margin: 0 auto;
+    background-color: white;
 }
 
 .variables__list__item {
@@ -25,11 +33,11 @@
     text-decoration: underline;
     font-size: 19px;
     margin-bottom: 5px;
+    color: black;
 }
 
 .variables__loader__wrapper {
     padding: 15px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
