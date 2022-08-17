@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Vin-Decoder/static/css/main.a4e4310c.css",
+    "main.css": "/Vin-Decoder/static/css/main.7ccbeebd.css",
     "main.js": "/Vin-Decoder/static/js/main.bcd47eb1.js",
     "static/media/main_background.jpg": "/Vin-Decoder/static/media/main_background.3bc4bf128ef53a56ba90.jpg",
     "index.html": "/Vin-Decoder/index.html",
-    "main.a4e4310c.css.map": "/Vin-Decoder/static/css/main.a4e4310c.css.map",
+    "main.7ccbeebd.css.map": "/Vin-Decoder/static/css/main.7ccbeebd.css.map",
     "main.bcd47eb1.js.map": "/Vin-Decoder/static/js/main.bcd47eb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e4310c.css",
+    "static/css/main.7ccbeebd.css",
     "static/js/main.bcd47eb1.js"
   ]
 }
